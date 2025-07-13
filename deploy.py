@@ -41,9 +41,9 @@ abi = compiled_solidity["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["abi"
 
 
 # connecting to ganache
-w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
-chain_id = 1337
-my_address = "0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1"
+w3 = Web3(Web3.HTTPProvider("https://sepolia.infura.io/v3/d58e86edcd6a489cb03bfac69ad01ef0"))
+chain_id = 11155111
+my_address = "0x348a2C58d500E4912d3D4fc414eCdfa045103f8d"
 private_key = config("PRIVATE_KEY")
 
 # create the contract in python
